@@ -1,0 +1,19 @@
+# 运行配置：包含账号和 DPAPI 加密密码，禁止提交
+config.json
+
+# 运行状态（由脚本按需生成）
+pause.json
+retry-state.json
+uu-restart-pending.json
+login-backoff.json
+
+# 日志
+autologin-*.log
+logs/
+
+# 无头 Edge 临时配置（若曾生成在脚本目录）
+EdgeProfile/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
